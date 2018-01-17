@@ -7,10 +7,11 @@
     <!--    Links to outside stylesheets-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!--    Links to fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:300,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
     <!--    links to local stylesheets-->
         <link type="text/css" rel="stylesheet" href="css/animate.css">
         <link type="text/css" rel="stylesheet" href="css/global.css">
+        <link type="text/css" rel="stylesheet" href="css/index.css">
         
     <!--    Link to Favicon-->  
         <link rel="icon" href="img/favicon.png" type="image/x-icon">   
@@ -22,14 +23,22 @@
     <!-- Header section here -->
         <div id="header">
             <div class="container">
-                <img id="navLogo" src="img/nav_logo.png">
-                <a href="https://www.audioguy.co/login"><p class="headerLink" id="login">Login</p></a>
+                <img id="navLogo" class="float-left" src="img/nav_logo.png">
+                <a href="https://www.audioguy.co/login"><p class="headerLink float-right" id="login">Login</p></a>
             </div>
         </div>
 
     <!-- Page content all goes here!! ..............................................................-->
-        <div class="container">
-            <h1>Are you a musician or a filmmaker</h1>
+        <div class="container text-center centered">
+            <h2 class="animated fadeInUp">Are you a musician or a filmmaker?</h2>
+            <div class="row animated fadeIn">
+                <div class="col-md-6">
+                    <a href="/pages/projects.html"><button><p>Musician</p></button></a>
+                </div>
+                <div class="col-md-6">
+                    <a href="/pages/projects.html"><button><p>Filmmaker</p></button></a>
+                </div>
+            </div>
         </div>
     <!-- End of page content................................................................................-->
 

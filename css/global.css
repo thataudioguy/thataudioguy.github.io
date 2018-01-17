@@ -2,7 +2,7 @@
 font-family: 'Cantarell', sans-serif;
 font-family: 'Nunito', sans-serif;*/
 
-/*purple button color is #68588E*/
+/*purple button color is #68578E*/
 
 /*light font color is #cacaca*/
 
@@ -29,11 +29,10 @@ h1, h2, h3, h4, h5 {
 
 p {
     font-family: 'Nunito', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 15px;
     letter-spacing: 1px;
     color: #edf1f7;
-    opacity: 0.9;
 }
 
 .darkFont {
@@ -42,4 +41,13 @@ p {
 
 .purpleFont {
     color: #68578e;
+}
+
+.centered {
+    position: absolute;
+    margin: auto;
+    top: 30%;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
