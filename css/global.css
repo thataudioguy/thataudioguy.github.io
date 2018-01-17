@@ -1,0 +1,45 @@
+/*
+font-family: 'Cantarell', sans-serif;
+font-family: 'Nunito', sans-serif;*/
+
+/*purple button color is #68588E*/
+
+/*light font color is #cacaca*/
+
+/*header(dark) background is #110F0B*/
+
+/*light background is #E9EEEF*/
+
+/*purple background is #303046*/
+
+body {
+    background-color: #110f0b;
+}
+
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #cacaca;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #edf1f7;
+    opacity: 0.9;
+}
+
+.darkFont {
+    color: #000000;
+}
+
+.purpleFont {
+    color: #68578e;
+}
