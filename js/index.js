@@ -5,7 +5,7 @@ $(document).ready(function(){
         $("#buttons").addClass("animated fadeIn");
         $("#title").removeClass("hidden");
         $("#buttons").removeClass("hidden");
-    }, 400);
+    }, 500);
     
     
 });
