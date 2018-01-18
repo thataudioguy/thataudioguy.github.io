@@ -19,21 +19,29 @@
     </head>
     
     <body>
-    <!-- Header section here -->
-        <div id="header">
-            <div class="container">
-                <a href="/index.html"><img id="navLogo" class="float-left" src="/img/nav_logo.png"></a>
-                <a href="https://www.audioguy.co/login"><p class="headerLink float-right" id="login">Login</p></a>
+    <!-- Header section as well as bottom to top arrow here -->
+        
+            <div id="header">
+                <div class="container">
+                    <a href="/index.html"><img id="navLogo" class="float-left" src="/img/nav_logo.png"></a>
+                    <a href="https://www.audioguy.co/login"><p class="headerLink float-right" id="login">Login</p></a>
+                </div>
+            </div> 
+        
+            <div class="hidden animated" id="arrowUp">
+                <img src="/img/arrow.png">
             </div>
-        </div>   
+      
 
     <!-- Page content all goes here!! ..............................................................-->
         <div class="container text-center">
             <img id="logo" class="hidden" src="/img/logo.png">
             <h1 id="title" class="hidden" style="margin-bottom:20px">The Ultimate Online Music Production School</h1>
-            <iframe id="video" class="hidden" src="https://www.youtube.com/embed/NntQ86FHcMY?autoplay=1&rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"></iframe>
+            <iframe id="video" class="hidden" src="https://www.youtube.com/embed/NntQ86FHcMY?autoplay=0&rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"></iframe>
+            
             <h1 class="onScrollFadeUp hidden" style="margin-top:50px; margin-bottom:-15px">Online Training begins in <span class="clock" id="minutes"></span>:<span class="clock" id="secFix"></span><span class="clock" id="seconds"></span></h1>
             <a target="_blank" href="https://events.genndi.com/register/169105139238471279/11e3918f1c"><button><p>JOIN THE FREE TRAINING</p></button></a>
+            
             <div class="spacer"></div>
         </div>
         
@@ -55,6 +63,7 @@
 
     <!--    Links to my JS-->
         <script type="text/javascript" src="/js/music.js"></script>
+        <script type="text/javascript" src="/js/global.js"></script>
         
     </body>
 </html>

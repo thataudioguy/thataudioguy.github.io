@@ -22,7 +22,11 @@ html, html a {
 
 #header {
     height: 100px;
-   background-color: #110F0B;
+    width: 100%;
+    background-color: #110F0B;
+    position: fixed;
+    z-index: 100;
+    top: 0;
 }
 
 #navLogo {
@@ -87,7 +91,7 @@ p {
 button {
     transition: 150ms;
     opacity: 0.9;
-    width: 90%;
+    width: 95%;
     max-width: 500px;
     border-radius: 3px;
     margin-top: 40px;
@@ -103,7 +107,7 @@ button p {
 button:hover {
     transition: 250ms;
     opacity: 0.8;
-    width: 100%;
+    width: 98%;
     max-width: 550px;
     background-color: #d46520;
 }
@@ -114,4 +118,27 @@ button:hover {
 
 .spacer {
     height: 60px;
+}
+
+#arrowUp {
+    transition: 300ms;
+    border-radius: 4px;
+    height: 50px;
+    width: 50px;
+    background-color: #68578E;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#arrowUp:hover {
+    background-color: #d46520;
+    transition: 200ms;
+}
+
+#arrowUp img {
+    margin-top:4px;
+    margin-left:3px;
+    opacity: 0.7;
+    
 }
