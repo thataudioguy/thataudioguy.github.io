@@ -28,7 +28,7 @@ html, html a {
 #navLogo {
     display: inline;
     align-content: left;
-    height: 50px;
+    height: 40px;
     margin-top:25px;
     margin-left: 20px;
     
@@ -74,4 +74,44 @@ p {
 
 .hidden {
     visibility: hidden;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid #68578E;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    opacity: 0.5;
+}
+
+button {
+    transition: 150ms;
+    opacity: 0.9;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 3px;
+    margin-top: 40px;
+    background-color: #68578E;
+    border: none;
+}
+
+button p {
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+button:hover {
+    transition: 250ms;
+    opacity: 0.8;
+    width: 100%;
+    max-width: 550px;
+    background-color: #d46520;
+}
+
+.light {
+    background-color: #E9EEEF; 
+}
+
+.spacer {
+    height: 60px;
 }
