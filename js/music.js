@@ -20,12 +20,12 @@ $(document).ready(function(){
         var seconds = Math.floor(900 - distance/1000) % 60;
         var minutes = Math.floor(15 - distance/60000);
         if (seconds < 10) {
-            $("#secFix").html(0);
+            $(".secFix").html(0);
         } else {
-            $("#secFix").html("");
+            $(".secFix").html("");
         }
-        $("#seconds").html(seconds);
-        $("#minutes").html(minutes);
+        $(".seconds").html(seconds);
+        $(".minutes").html(minutes);
     }, 1000);
 //    End of clock....................................................................
     
@@ -57,6 +57,18 @@ $(document).ready(function(){
             $(this).attr("loaded",true);
         }
    });
+        
+            $(".onScrollFadeIn").each(function(){
+        var ot = $(this).offset().top;  //* top of object 
+        var ob = ot + $(this).height(); //* bottom of object
+
+        if(!$(this).attr("loaded") && wt<=ob && wb >= ot) {
+            $(this).removeClass("hidden");
+            $(this).addClass("animated fadeIn");
+            $(this).attr("loaded",true);
+        }
+   });
+       
         
 }
 //    End of loads on scroll

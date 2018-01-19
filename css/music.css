@@ -16,6 +16,10 @@ iframe {
         width: 700px;
         height: 394px; 
     }
+    
+    #bImage {
+        background-image: none;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -23,8 +27,20 @@ iframe {
         width: 300px;
         height: 169px; 
     }
+    
 }
 
 .clock {
     color: #f2731f;
+}
+
+.backgroundImage {
+    background-image: url(/img/whitekeyboard.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#brendo {
+    width: 90%;
+    max-width: 600px;
 }

@@ -67,6 +67,10 @@ p {
     color: #68578e;
 }
 
+.orangeFont {
+    color: #d46520;
+}
+
 .centered {
     position: absolute;
     margin: auto;
@@ -154,4 +158,8 @@ button:hover {
 
 h3 {
     margin-top: 20px;
+}
+
+#footer {
+    height: 150px;
 }
