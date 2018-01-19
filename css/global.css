@@ -120,7 +120,11 @@ button:hover {
     height: 60px;
 }
 
+.spacerSmall {
+    height: 30px;
+}
 #arrowUp {
+    z-index: 100;
     transition: 300ms;
     border-radius: 4px;
     height: 50px;

@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
     setTimeout(function() {
-        $("#title").addClass("animated fadeInUp");
+        $("#title").addClass("animated fadeInDown");
         $("#video").addClass("animated fadeIn");
         $("#logo").addClass("animated fadeIn");
         $("#title").removeClass("hidden");
@@ -43,6 +43,17 @@ $(document).ready(function(){
         if(!$(this).attr("loaded") && wt<=ob && wb >= ot) {
             $(this).removeClass("hidden");
             $(this).addClass("animated fadeInUp");
+            $(this).attr("loaded",true);
+        }
+   });
+        
+        $(".onScrollSlideLeft").each(function(){
+        var ot = $(this).offset().top;  //* top of object 
+        var ob = ot + $(this).height(); //* bottom of object
+
+        if(!$(this).attr("loaded") && wt<=ob && wb >= ot) {
+            $(this).removeClass("hidden");
+            $(this).addClass("animated slideInLeft");
             $(this).attr("loaded",true);
         }
    });
