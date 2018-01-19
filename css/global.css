@@ -146,3 +146,12 @@ button:hover {
     opacity: 0.7;
     
 }
+
+.smallPic {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+}
