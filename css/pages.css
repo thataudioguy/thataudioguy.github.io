@@ -40,6 +40,12 @@ iframe {
     background-repeat: no-repeat;
 }
 
+.backgroundImageBoom {
+    background-image: url(/img/boom.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 #brendo {
     width: 90%;
     max-width: 600px;
