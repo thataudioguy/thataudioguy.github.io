@@ -52,11 +52,17 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
+    transition: 200ms;
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 15px;
     letter-spacing: 1px;
     color: #edf1f7;
+}
+
+#header p:hover {
+    transition: 300ms;
+    color: #68578E;
 }
 
 .darkFont {
