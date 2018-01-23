@@ -1,5 +1,7 @@
 $(document).ready(function(){
     
+    
+    
 //    arrow scrolling in/out................................
      $(window).on("scroll", function() {
         if($(window).scrollTop() > 200) {

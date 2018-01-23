@@ -1,4 +1,21 @@
 $(document).ready(function(){
+
+//responsive stuff for bootstrap pageItems
+    resizeWidth();
+    $(window).on("resize", resizeWidth);
+    
+    function resizeWidth() {
+        var width = $(window).width();
+        if (width < 980 && width > 450) {
+            $(".pageItem").removeClass("col-lg-4");
+            $(".pageItem").addClass("col-md-6");  
+        } else {
+            $(".pageItem").removeClass("col-md-6");
+            $(".pageItem").addClass("col-lg-4"); 
+        }
+    };
+    
+    
     
 //    front page animations fade in on load...........................................
     setTimeout(function() {
