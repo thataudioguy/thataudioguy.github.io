@@ -1,0 +1,44 @@
+#logo {
+    width: 30%;
+    max-width: 500px;
+    min-width: 200px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+iframe {
+    width: 70%;
+    height: 425px;
+}
+
+@media only screen and (max-width: 1200px) {
+     iframe {
+        width: 700px;
+        height: 394px; 
+    }
+}
+
+@media only screen and (max-width: 800px) {
+     iframe {
+        width: 500px;
+        height: 269px; 
+    }
+    
+}
+
+@media only screen and (max-width: 550px) {
+     iframe {
+        width: 300px;
+        height: 169px; 
+    }
+    
+}
+
+.unseen {
+    display: none;
+}
+
+#musicMenu {
+    cursor:pointer;
+}
+
