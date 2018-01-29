@@ -161,3 +161,15 @@ h3 {
 #footer {
     height: 150px;
 }
+
+a {
+    transition: 200ms;
+    color: #68578E;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: 300ms;
+    color: #d46520;
+    text-decoration: none;
+}

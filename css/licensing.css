@@ -42,3 +42,10 @@ iframe {
     cursor:pointer;
 }
 
+#BMImg {
+    width: 65%;
+    min-width: 300px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
