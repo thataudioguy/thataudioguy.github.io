@@ -1,4 +1,14 @@
 $(document).ready(function(){
+   
+   setTimeout(function() {
+        $("#music").addClass("animated fadeInUp");
+        $("#music").removeClass("hidden");
+    }, 800);  
+    
+    
+    
+    
+    
     
 //    cinematic button..........................................................
     $("#cinematicButton").on('click', function() {  
