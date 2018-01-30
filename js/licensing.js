@@ -6,7 +6,7 @@ $(document).ready(function(){
             $("#commercialButton").removeAttr("loaded");
             $("#commercialButton").removeClass("orangeFont");
             $("#cinematicButton").addClass("orangeFont");
-            $("#playlist").attr("src", "https://www.youtube.com/embed/videoseries?list=PLN5GL_fKa-4i0fnjXbUOEkx1UlNhYaHYa"); 
+            $("#playlist").attr("src", "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/347178291%3Fsecret_token%3Ds-YcqZZ&amp;color=68578E&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"); 
         };                
     });
 // end cinematic button.........................................................
@@ -17,7 +17,7 @@ $(document).ready(function(){
             $("#cinematicButton").removeAttr("loaded");
             $("#cinematicButton").removeClass("orangeFont");
             $("#commercialButton").addClass("orangeFont");
-            $("#playlist").attr("src", "https://www.youtube.com/embed/videoseries?list=PLN5GL_fKa-4gj9QumV-X6cuc10wFBRmV2");  
+            $("#playlist").attr("src", "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/347178633%3Fsecret_token%3Ds-oeE30&amp;color=68578E&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false");  
         };   
     });
 // end commercial button.........................................................
