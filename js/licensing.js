@@ -3,7 +3,7 @@ $(document).ready(function(){
    setTimeout(function() {
         $("#music").addClass("animated fadeInUp");
         $("#music").removeClass("hidden");
-    }, 800);  
+    }, 1200);  
     
     
     
