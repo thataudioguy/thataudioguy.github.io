@@ -2,7 +2,7 @@ $(document).ready(function(){
    
    setTimeout(function() {
         $("#music").addClass("animated fadeInUp");
-        $("#music").removeClass("hidden");
+        $("#music").removeClass("hiddenIframe");
     }, 1200);  
     
     

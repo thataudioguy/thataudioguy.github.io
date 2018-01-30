@@ -35,8 +35,8 @@ iframe {
     
 }
 
-.unseen {
-    display: none;
+.hiddenIframe {
+    visibility: hidden;
 }
 
 #musicMenu {
